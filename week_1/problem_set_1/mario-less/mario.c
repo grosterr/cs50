@@ -26,10 +26,9 @@ void print_row(int spaces, int bricks)
     {
         printf(".");
     }
-    for(int i = 0; i < bricks; i++)
+    for (int i = 0; i < bricks; i++)
     {
         printf("#");
     }
-
     printf("\n");
 }
