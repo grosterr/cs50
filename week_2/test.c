@@ -9,11 +9,10 @@ int main(void)
     print_column(h);
 }
 
-void print_column(int height);
-int column(int height);
-{}
+void print_column(int height)
+{
     for (int i = 0; i <= height; i++)
     {
-        printf("\n#")
+        printf("\n#");
     }
 }
