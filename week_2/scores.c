@@ -3,11 +3,12 @@
 
 int main(void)
 {
-    int score[3];
-    for (int i = 0; i < 3; i++);
+    int scores[3]; // may be const
+
+    for (int i = 0; i < 3; i++)
     {
-        score[i] = get_int("Score: ");
+        scores[i] = get_int("Score: ");
     }
 
-    printf("Average: %f\n", (score[0] + score[1] + score[2]) / 3.0);
+    printf("Average: %f\n", (scores[0] + scores[1] + scores[2]) / 3.0);
 }
