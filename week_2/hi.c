@@ -1,4 +1,4 @@
-#include <cs50.h>
+#include <stdio.h>
 
 int main(void)
 {
@@ -6,5 +6,5 @@ int main(void)
     char c2 = 'i';
     char c3 = '!';
 
-    printf("%c%c%", c1, c2, c3);
+    printf("%c %c %c\n", c1, c2, c3);
 }
