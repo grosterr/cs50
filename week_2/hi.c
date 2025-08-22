@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <c50.h>
 
 int main(void)
 // {
@@ -9,6 +10,9 @@ int main(void)
     // printf("%c %c %c\n", c1, c2, c3);
 // }
 {
-    string t = "H i !";
-    string b = "B Y E !";
+    string t = "Hi!";
+    string b = "BYE!";
+
+    printf("%s\n", t);
+    printf("$%s\n", b)
 }
